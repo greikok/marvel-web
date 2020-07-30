@@ -1,0 +1,159 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_container{
+    background-color: #393939;
+    display: flex;
+    justify-content: space-around;
+}
+.logo_marvel{
+    width: 50px;
+    height: 50px;
+}
+ .user_list{
+     color: white;
+ }
+ .user_menu{
+     color: white;
+     border-right: 1px solid #fff;;  
+     border-left: 1px solid #fff;;
+ }
+ .user_menu_text{
+    margin-top: 20px;
+    align-items: center;
+ }
+.nav_options{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo_lupa_img{
+    color: white;
+}
+.logo_lupa{
+    border-right: 1px solid #fff;;  
+}
+.logo_card{
+    display: inline-flex;
+    border-color: white;
+    border-right: 1px solid #fff;;  
+    border-left: 1px solid #fff;;
+    align-items: center;
+}
+.logo_card{
+padding-right: 15px;
+padding-left: 10px;
+}
+.page__footer{
+   background-color:  #151515;
+}
+.main_footer{
+    background-color:  #151515;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.main_footer_link{
+    color: white;
+    list-style:none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.main_footer_content{
+    display: flex;
+}
+.promo_menu{
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.promo_code_content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+.logo_card_promo{
+
+}
+.promo_code_main{
+    text-transform: uppercase;
+    color: red;
+}
+.promo_title{
+    color: white;
+}
+.promo_legal{
+color: white;
+}   
+
+
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: black;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background: black;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menu{
+    text-align: center;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
